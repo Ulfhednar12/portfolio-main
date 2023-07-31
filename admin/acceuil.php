@@ -26,7 +26,7 @@ $resultat2 = $query->fetchAll();
     <?php foreach ($resultat as $valeur) { ?>
       <!-- Affichage des dernières réalisations publiées sous forme de cartes -->
       <div class="card" style="width: 18rem; margin: 20px;">
-        <img src="./../assets/img/<?= $valeur['image'] ?>" style="width: 18rem; height: 15rem" class="card-img-top" alt="...">
+        <img src="./../assets/img/<?= $valeur['image'] ?>" style="width: 18rem; height: 12rem" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"><?= $valeur['titre'] ?></h5>
           <p class="card-text"><?= $valeur['paragraphe'] ?></p>

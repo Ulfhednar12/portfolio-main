@@ -74,7 +74,7 @@ include "header.php"; // Inclut le fichier "header.php" pour afficher l'en-tête
         </div>
 
         <div class="form-group">
-            <label class="form-label">État</label><br>
+            <label class="form-label">État</label><br> <!--bouton pour donner la valeur visible ou invisible dans la base de données-->
             <input type="radio" name="etat" value="visible" required> <label for="etat">Visible</label><br>
             <input type="radio" name="etat" value="invisible" required> <label for="etat">Invisible</label>
         </div>
