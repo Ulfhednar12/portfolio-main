@@ -1,0 +1,131 @@
+body {
+    background: #eee !important;
+}
+h1{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 30px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.section_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ajout {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#message {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-submit2{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px 0px 10px;
+}
+.btn-submit a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+#card_realisation{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image img{
+    width: 100px;
+}
+td a i, button a i {
+    font-size: 25px;
+}
+.retour a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
